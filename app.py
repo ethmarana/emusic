@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""NEON MUSIC 2 / MONO: floating local Spotify controller and read-only library."""
+"""EMUSIC: floating local Spotify controller and read-only library."""
 import json
 import re
 import os
