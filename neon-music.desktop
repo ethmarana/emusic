@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=NEON MUSIC / MONO
+Comment=Monochrome floating Spotify controller
+Exec=neon-music
+Icon=multimedia-player
+Terminal=false
+Categories=AudioVideo;Audio;Player;
+StartupWMClass=neon-music

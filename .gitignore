@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+
+token.json
+cache/
+*.log
+
+.env
+.env.*
+
+backup-*/

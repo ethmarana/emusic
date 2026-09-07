@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+export QT_QPA_PLATFORM="${QT_QPA_PLATFORM:-wayland;xcb}"
+APP="${XDG_DATA_HOME:-$HOME/.local/share}/neon-music"
+if [[ "${1:-}" == "--restore" ]]; then
+    exec /usr/bin/python "$APP/app.py" --restore
+fi
+exec /usr/bin/python "$APP/app.py" "$@"
