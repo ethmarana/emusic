@@ -1,4 +1,4 @@
-# NEON MUSIC / MONO
+# EMUSIC
 
 A floating, monochrome Spotify controller for Arch Linux and modern Hyprland Lua. The official desktop client remains the playback engine. This is a personal, read-only library browser, not a replacement streaming service.
 
